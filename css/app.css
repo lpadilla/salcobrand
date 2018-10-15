@@ -1,0 +1,83 @@
+.btn:not(:disabled):not(.disabled) {
+    border-radius: 25px;
+    background-image: linear-gradient(to right top, #3730b4, #0062d3, #008be4, #34b1ec, #83d4f2);
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.form-control {
+	border-radius: 10px;
+	color: #D8D8D8;
+	border: 1px solid #D8D8D8;
+}
+.fc{
+	color: #1694E0;
+}
+.myp{
+	font-weight: 600;
+}
+.logo{
+	width: 120px;
+}
+.arrow{
+	width: 70px;
+}
+
+label{
+	color: #A4A4A4;
+}
+a.ss{
+	text-decoration: underline;
+}
+.custom-checkbox .custom-control-label::before{
+	border-radius: 50%;
+}
+span.color{
+	color: red;
+}
+
+button.close.x{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.modal-content{
+	border: 0px!important;
+}
+
+.modal-header{
+	border-bottom: 0px!important;
+}
+
+button.close.x{
+	font-size: 35px;
+	font-weight: 800;
+}
+
+/* Scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1; 
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c1c1c1; 
+}
+/* End Scroll bar*/
+
+div.hide{
+	display: none;
+}

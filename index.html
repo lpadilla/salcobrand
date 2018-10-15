@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 p-3 m-3">
+					<img class="logo mx-auto d-block" src="img/logo.svg">
+					<h3 class="text-center fc pt-3 mt-3">INGRESA TUS DATOS</h3>
+					<p class="text-center myp">
+						&#161;Conoce nuestras mejores promocionmes y productos pensados para tu bienestar&#33;
+					</p>
+
+					<div class="d-flex justify-content-center">
+						<form>							
+							<div class="form-group">
+							    <label>NOMBRES</label><span class="color">*</span>
+							    <input type="text" class="form-control" id="name" name="name" placeholder="Ej: Constanza...">
+							    <div class="invalid-feedback" id="invalid-name">
+          					Agregue un nombre
+        					</div>
+							</div>
+							<div class="form-group">
+							    <label>APELLIDOS</label><span class="color">*</span>
+							    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Ej: Suarez...">
+							    <div class="invalid-feedback" id="invalid-lastname">
+          					Agregue un apellido
+        					</div>
+							</div>
+							<div class="form-group">
+							    <label>RUT</label><span class="color">*</span>
+							    <input type="text" class="form-control" id="rut" name="rut" placeholder="Ej: 10.102.999-9">
+							    <div class="invalid-feedback" id="invalid-rut">
+          					Agregue un rut v&aacute;lido
+        					</div>
+							</div>
+							<div class="form-group">
+							    <label>CORREO</label><span class="color">*</span>
+							    <input type="email" class="form-control" id="email" name="email" placeholder="Ej: constanza@gmail.com">
+							    <div class="invalid-feedback" id="invalid-email">
+          					Agregue un correo v&aacute;lido
+        					</div>
+							</div>
+							<div class="form-group pt-3 mt-3">
+								<h3 class="text-center fc pt-3 mt-3">&#191;CU&Aacute;LES SON TUS CATEGOR&Iacute;AS DE INTER&Eacute;S&#63;</h3>
+								<p class="text-center myp mb-3 pb-3">
+									Puedes elegir m&aacute;s de 1
+								</p>
+							</div>
+
+
+							<div class="form-group">
+
+								<div class="invalid-feedback" id="invalid-category">
+          					Agregue al menos una categor&iacute;a
+        					</div>
+
+
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="1" name="1">
+								  <label class="custom-control-label" for="1">SELECCIONAR TODAS</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="2" name="2">
+								  <label class="custom-control-label" for="2">DERMOCOACHING</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="3" name="3">
+								  <label class="custom-control-label" for="3">INFANTIL Y MAM&Aacute;</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="4" name="4">
+								  <label class="custom-control-label" for="4">BELLEZA</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="5" name="5">
+								  <label class="custom-control-label" for="5">CUIDADO PERSONAL</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="6" name="6">
+								  <label class="custom-control-label" for="6">SALUD Y VITAMINAS</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="7" name="7">
+								  <label class="custom-control-label" for="7">WELLNESS</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="8" name="8">
+								  <label class="custom-control-label" for="8">BIENESTAR SEXUAL</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="9" name="9">
+								  <label class="custom-control-label" for="9">MUNDO MASCOTAS</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+								  <input type="checkbox" class="custom-control-input" id="10" name="10">
+								  <label class="custom-control-label" for="10">MEDICAMENTOS</label>
+								</div>
+							</div>
+
+							<div class="form-group mt-3 pt-3">
+								<a class="fc ss" href="#" data-toggle="modal" data-target="#termAndConditions">
+									<p class="text-center"><u>Ver t&eacute;rminos y condiciones</u></p>
+								</a>
+
+								<div class="custom-control custom-checkbox pt-3 pb-3">
+								  <input type="checkbox" class="custom-control-input" id="agree" name="agree">
+								  <label class="custom-control-label fc pl-3" for="agree">
+								  	Acepto t&eacute;rminos y condiciones
+								  </label>
+								  <div class="invalid-feedback" id="invalid-agree">
+          					Acepte los términos y condiciones
+        					</div>
+								</div>
+							</div>
+
+							<div class="form-group text-center">
+								<button type="button" class="btn btn-block btn-primary" id="submit">REGISTRARME</button>
+							</div>
+						</form>
+					</div>
+
+					<!-- Modal Term and conditions-->
+						<div class="modal fade" id="termAndConditions" tabindex="-1" role="dialog" aria-labelledby="termAndConditionsLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="termAndConditionsLabel">Terminos y condiciones</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        Aqui estar&aacute;n los terminos y condiciones!!!
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- End Modal Term and conditions-->
+
+					<!-- Modal Success-->
+						<div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="termAndConditionsLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-sm" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close x" data-dismiss="modal" aria-label="Close" id="close-success">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<!--<i class="fas fa-check-circle fa-3x pad"></i>-->
+							      	<img class="arrow mx-auto d-block" src="img/arrow-green.svg">
+							        <h1 class="congrats text-center pt-4" >&#161;Felicidades&#33;</h1>
+							        <p class="text-center pt-2"><b>Pudiste registrarte con &eacute;xito, Ahora ser&aacute;s el primero en conocer nuevos descuentos y noticias.</b></p>
+							      </div>
+							    </div>
+						    </div>
+						  </div>
+						</div>
+					<!-- End Modal Success-->
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			(function(){
+				$('#success').modal('hide');
+
+				function validateForm(){	
+					var count = 0;
+					/* acepto los terminos y condiciones*/
+						var vari = "input[name='agree']:checked";
+						if($(vari).val() != "on"){
+							$("#invalid-agree").show();
+							count ++;
+						}else{
+							$("#invalid-agree").hide();						
+						}
+					/* fin acepto los terminos y condiciones*/
+
+					/* validation name */					
+						if(!/[a-zA-Z]/.test($("#name").val())){						
+							$("#invalid-name").show();
+							count ++;
+						}else{
+							$("#invalid-name").hide();							
+						}
+					/* end validation name */
+
+					/* validation lastname */
+						if(!/[a-zA-Z]/.test($("#lastname").val())){		
+							$("#invalid-lastname").show();
+							count ++;
+						}else{
+							$("#invalid-lastname").hide();							
+						}
+					/* end validation lastname */
+
+					/* validation rut */
+						if (!/[1-9].?\d{3}.?\d{3}-?\d{1}$/.test($("#rut").val()) ) {
+							$("#invalid-rut").show();
+						  count ++;
+						}else{
+							$("#invalid-rut").hide();							
+						}
+					/* end validation rut */
+					
+					/* validation email */
+						if(!isValidEmailAddress($("#email").val())){
+							$("#invalid-email").show();
+							count ++;
+						}else{							
+							$("#invalid-email").hide();
+						}
+					/* end validation email */
+
+  				/* validations categories*/
+						var options="";
+						for (var i = 1; i <= 10; i++) {
+							var vari = "input[name='"+i+"']:checked";
+							if($(vari).val() == "on" && !options){
+								options=options+i;
+							}else if($(vari).val() == "on" && options){
+								options=options+","+i;
+							}
+						}
+						if(!options){
+							$("#invalid-category").show();							
+							count ++;
+						}else{
+							$("#invalid-category").hide();														
+						}
+					/* end validations categories*/
+
+					if(count >= 1){
+						return false;
+					}
+					return true;
+				}
+
+				$("#submit").click(function(){
+					if(validateForm() == true){
+						var options="";
+						for (var i = 1; i <= 10; i++) {
+							var vari = "input[name='"+i+"']:checked";
+							if($(vari).val() == "on" && !options){
+								options=options+i;
+							}else if($(vari).val() == "on" && options){
+								options=options+","+i;
+							}
+						}					
+						$.post("app.php",
+						{
+						  name: $("#name").val(),
+						  lastname: $("#lastname").val(),
+						  rut: $("#rut").val(),
+						  email: $("#email").val(),
+						  categories:options
+				    },
+				    function(data, status){
+			        $('#success').modal('show');
+				  	});
+					}
+				});
+
+
+				$("#close-success").click(function(){
+					location.reload();
+				});
+
+
+				function isValidEmailAddress(emailAddress) {
+	    		var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+	    		return pattern.test(emailAddress);
+				}
+			})();
+		</script>
+	</body>
+</html>
